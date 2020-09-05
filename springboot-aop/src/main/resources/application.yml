@@ -1,2 +1,6 @@
 server:
   port: 8087
+spring:
+  profiles:
+    include: jdbc
+version: 0.1

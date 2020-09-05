@@ -14,14 +14,14 @@ import java.util.List;
 
 public class CodeGenerator3 {
 
-    private static String url = "jdbc:mysql://localhost:3306/mybatis_plus?serverTimezone=CTT";
+    private static String url = "jdbc:mysql://localhost:3306/springboot_aop?serverTimezone=CTT";
     private static String user = "root";
     private static String password = "root";
     private static String driverName = "com.mysql.cj.jdbc.Driver";
     private static String author = "com.JZhi";
-    private static String outputDir = "/springboot-mybatis-plus/src/main/java/";
-    private static String packageName = "com.com.JZhi.project";//生成的东西放在这个包里
-    private static String tablePrefix = "tb_"; //表前缀
+    private static String outputDir = "/springboot-aop/src/main/java/";
+    private static String packageName = "com.JZhi.project";//生成的东西放在这个包里
+    private static String tablePrefix = "t_"; //表前缀
     private static String projectPath = System.getProperty("user.dir");
 
     public static void main(String[] args) {

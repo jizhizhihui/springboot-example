@@ -2,7 +2,6 @@ package com.JZhi.config;
 
 import com.JZhi.project.entity.User;
 import com.JZhi.project.service.IUserService;
-import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -29,7 +28,6 @@ public class MyShiroRealm extends AuthorizingRealm {
         authorizationInfo.addRole(userService.getRoleByRoleId(user.getRoleId()));
         authorizationInfo.addStringPermissions(userService.getPermissionByRoleId(user.getRoleId()));
 
-
 //        //添加角色和权限
 //        SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
 //        for (Role role : admin.getRoles()) {
@@ -40,7 +38,6 @@ public class MyShiroRealm extends AuthorizingRealm {
 //                simpleAuthorizationInfo.addStringPermission(permission.getName());
 //            }
 //        }
-
         return authorizationInfo;
     }
 
