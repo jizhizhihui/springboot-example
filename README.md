@@ -1,4 +1,4 @@
-#springboot入门详解
+#springboot基础
 
 ##前言
 
@@ -8,36 +8,15 @@
 
 项目包括了一些在springboot中比较常用的技术。
 
-##mybatis-plus
 
-###引包
+##技术栈
 
-mybatis-plus 整合 springboot 
+mybatis-plus
 
-    <!--  mybatis-plus -->
-    <dependency>
-        <groupId>com.baomidou</groupId>
-        <artifactId>mybatis-plus-boot-starter</artifactId>
-        <version>${mybatis-plus-boot-starter.version}</version>
-    </dependency>
-   
-mybatis-plus 代码生成器 和模板引擎（如果不需要逆向工程，可以不用，才上手不建议使用）
- 
-    <!-- springboot整合freemarker -->
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-freemarker</artifactId>
-    </dependency>
+exception-handle
 
-    <!--  mybatis-plus 代码生成器 -->
-    <dependency>
-        <groupId>com.baomidou</groupId>
-        <artifactId>mybatis-plus-generator</artifactId>
-        <version>3.3.2</version>
-    </dependency>
+AOP
 
-##AOP
-
-##shiro
+shiro
 
 

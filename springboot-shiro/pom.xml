@@ -19,7 +19,6 @@
     </properties>
 
     <dependencies>
-
         <!--shiro 权限框架-->
         <dependency>
             <groupId>org.apache.shiro</groupId>
@@ -33,6 +32,8 @@
             <artifactId>shiro-redis</artifactId>
             <version>${shiro-redis.version}</version>
         </dependency>
+
+
 
         <!-- Jedis -->
         <dependency>

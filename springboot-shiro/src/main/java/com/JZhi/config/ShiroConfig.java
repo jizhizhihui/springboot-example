@@ -90,7 +90,7 @@ public class ShiroConfig {
 		mappings.setProperty("UnauthorizedException","403");
 		r.setExceptionMappings(mappings);  // None by default
 		r.setDefaultErrorView("error");    // No default
-		r.setExceptionAttribute("ex");     // Default is "exception"
+		r.setExceptionAttribute("ex");     // Default is "exceptionHandler"
 		//r.setWarnLogCategory("example.MvcLogger");     // No default
 		return r;
 	}

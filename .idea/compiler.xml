@@ -7,18 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-RabbitMQ" />
-        <module name="springboot-shiro" />
+        <module name="springboot-exception-handler" />
+        <module name="springboot-rabbitMQ" />
         <module name="springboot-aop" />
         <module name="springboot-mybatis-plus" />
+        <module name="springboot-shiro" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="springboot-RabbitMQ" options="-parameters" />
       <module name="springboot-aop" options="-parameters" />
+      <module name="springboot-exception-handler" options="-parameters" />
       <module name="springboot-mybatis-plus" options="-parameters" />
+      <module name="springboot-rabbitMQ" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
     </option>
   </component>
