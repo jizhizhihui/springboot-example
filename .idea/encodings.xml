@@ -3,9 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-async" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-exception-handler" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis-plus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-rabbitMQ" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-scheduled" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-utils" charset="UTF-8" />
   </component>
 </project>

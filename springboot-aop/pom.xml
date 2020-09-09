@@ -12,6 +12,28 @@
     <artifactId>springboot-aop</artifactId>
 
     <dependencies>
+        <!--Mysql驱动-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <!--            <scope>runtime</scope>-->
+            <version>${mysql.version}</version>
+        </dependency>
+
+        <!--阿里数据库连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!--  mybatis-plus 整合 springboot -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus.version}</version>
+        </dependency>
+
         <!--引入AOP依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
