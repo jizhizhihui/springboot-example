@@ -19,6 +19,12 @@
         <module>springboot-scheduled</module>
         <module>springboot-utils</module>
         <module>springboot-swagger</module>
+        <module>springboot-redis</module>
+        <module>springboot-quartz</module>
+        <module>springboot-postgreSQL</module>
+        <module>springboot-timescaleDB</module>
+        <module>springboot-socket</module>
+        <module>springboot-socket-service</module>
     </modules>
 
     <parent>
@@ -72,6 +78,12 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <!-- Swagger -->
