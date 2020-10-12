@@ -70,11 +70,11 @@ public class CodeGenerator3 {
                 .setTablePrefix(tablePrefix);   //表前缀
 //                .setInclude("tb_user"); // 需要生成的表,默认全部
 //                .setExclude(new String[]{"test"}) // 排除生成的表
-//                .setSuperEntityClass("com.baomidou.demo.base.BsBaseEntity") //自定义实体父类
-//                .setSuperMapperClass("com.baomidou.demo.base.BsBaseMapper")   // 自定义 mapper 父类
-//                .setSuperServiceClass("com.baomidou.demo.base.BsBaseService") // 自定义 service 父类
-//                .setSuperServiceImplClass("com.baomidou.demo.base.BsBaseServiceImpl") // 自定义 service 实现类父类
-//                .setSuperControllerClass("com.baomidou.demo.TestController")// 自定义 controller 父类
+//                .setSuperEntityClass("com.baomidou.test.base.BsBaseEntity") //自定义实体父类
+//                .setSuperMapperClass("com.baomidou.test.base.BsBaseMapper")   // 自定义 mapper 父类
+//                .setSuperServiceClass("com.baomidou.test.base.BsBaseService") // 自定义 service 父类
+//                .setSuperServiceImplClass("com.baomidou.test.base.BsBaseServiceImpl") // 自定义 service 实现类父类
+//                .setSuperControllerClass("com.baomidou.test.TestController")// 自定义 controller 父类
 //                .setEntityColumnConstant(true)    //是否生成字段常量（默认 false）
 //                .setEntityBooleanColumnRemoveIsPrefix(true);  // Boolean类型字段是否移除is前缀处理
 
