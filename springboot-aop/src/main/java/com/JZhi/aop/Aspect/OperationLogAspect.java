@@ -91,7 +91,7 @@ public class OperationLogAspect {
             OperLog operLog = method.getAnnotation(OperLog.class);
             if (operLog != null) {
 
-                operation.setModel(operLog.operationModul()); // 操作模块
+                operation.setModel(operLog.operationModel()); // 操作模块
                 operation.setType(operLog.operationType().name()); // 操作类型
                 operation.setOperDesc(operLog.operationDesc()); // 操作描述
                 System.out.println("操作获取：" + operLog + "CCC" + operation.getOperDesc());

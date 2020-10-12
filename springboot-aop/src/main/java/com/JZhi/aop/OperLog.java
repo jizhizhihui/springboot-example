@@ -10,7 +10,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME) //注解在哪个阶段执行
 @Documented
 public @interface OperLog {
-    String operationModul() default ""; // 操作模块
+    String operationModel() default ""; // 操作模块
     OperationType operationType();  // 操作类型
     String operationDesc() default "";  // 操作说明
 }
