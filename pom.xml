@@ -21,10 +21,10 @@
         <module>springboot-swagger</module>
         <module>springboot-redis</module>
         <module>springboot-quartz</module>
-        <module>springboot-postgreSQL</module>
         <module>springboot-timescaleDB</module>
         <module>springboot-socket</module>
-        <module>springboot-socket-service</module>
+        <module>java-interview</module>
+        <module>springboot-mqtt</module>
     </modules>
 
     <parent>
@@ -47,6 +47,7 @@
         <druid.version>1.1.21</druid.version>
         <lombok.version>1.16.18</lombok.version>
         <kaptcha.version>2.3.2</kaptcha.version>
+        <commons-lang3.version>3.0</commons-lang3.version>
         <swagger.version>2.9.0</swagger.version>
         <fastjson.version>1.2.47</fastjson.version>
     </properties>
@@ -84,6 +85,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
+        </dependency>
+
+        <!-- 引入springboot 常用工具 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
         </dependency>
 
         <!-- Swagger -->

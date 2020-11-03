@@ -6,9 +6,10 @@
     <file url="file://$PROJECT_DIR$/springboot-aop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-async" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-exception-handler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-grpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-grpc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mqtt" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-mybatis-plus" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-postgreSQL" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-quartz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-rabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-redis" charset="UTF-8" />

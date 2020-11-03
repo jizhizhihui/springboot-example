@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/springboot-grpc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-postgreSQL/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-socket-service/pom.xml" />
       </set>
     </option>
